@@ -1,13 +1,13 @@
 <resources>
-    <string name="app_name">婚姻建議</string>
-    <string name="sex">性別</string>
-    <string name="edtSex">(輸入性別)</string>
-    <string name="Age">年齡</string>
-    <string name="edtAge">(輸入年齡)</string>
-    <string name="btn_ok">確定</string>
-    <string name="suggestion">建議：</string>
-    <string name="sug_not_hurry">還不急。</string>
-    <string name="sug_get_married">開始找對象。</string>
-    <string name="sug_find_couple">趕快結婚！</string>
-    <string name="sex_male">男</string>
+    <string name="app_name">HW#2:鄭宇翔</string>
+    <string name="sex">gender</string>
+    <string name="edtSex">(Enter gender)</string>
+    <string name="Age">age</string>
+    <string name="edtAge">(Enter age)</string>
+    <string name="btn_ok">ok</string>
+    <string name="suggestion">Suggest：</string>
+    <string name="sug_not_hurry">Not in a hurry.</string>
+    <string name="sug_get_married">find a couple.</string>
+    <string name="sug_find_couple">Get married quickly！</string>
+    <string name="sex_male">male</string>
 </resources>

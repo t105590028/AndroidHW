@@ -11,7 +11,7 @@
         android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="性別"
+        android:text="gender"
         android:textSize="25sp"
         tools:text="@string/sex" />
 
@@ -43,11 +43,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="確定" />
+        android:text="ok" />
 
     <TextView
         android:id="@+id/txtR"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="建議 :" />
+        android:text="Suggest :" />
 </LinearLayout>
