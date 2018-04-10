@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.uxiang.hw41.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtSex"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="性別"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:id="@+id/radGrpSex"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/radBtnSex1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="male" />
+
+                <RadioButton
+                    android:id="@+id/radBtnSex2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="female" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/txtAge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="年齡"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/spnAge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/maleAge"
+                android:spinnerMode="dialog" />
+
+            <TextView
+                android:id="@+id/interest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/interest1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="音樂" />
+
+            <CheckBox
+                android:id="@+id/interest2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="唱歌" />
+
+            <CheckBox
+                android:id="@+id/interest3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="跳舞" />
+
+            <CheckBox
+                android:id="@+id/interest4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="旅行" />
+
+            <CheckBox
+                android:id="@+id/interest5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="閱讀" />
+
+            <CheckBox
+                android:id="@+id/interest6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="寫作" />
+
+            <CheckBox
+                android:id="@+id/interest7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="爬山" />
+
+            <CheckBox
+                android:id="@+id/interest8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="游泳" />
+
+            <CheckBox
+                android:id="@+id/interest9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="美食" />
+
+            <CheckBox
+                android:id="@+id/interest10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="繪畫" />
+
+            <Button
+                android:id="@+id/btnOK"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="確定"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtSug"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="建議"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtInterest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="您的興趣"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
