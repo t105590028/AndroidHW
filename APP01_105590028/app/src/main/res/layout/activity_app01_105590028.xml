@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="tw.edu.ntut.csie.app01_105590028.APP01_105590028">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="399dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="50dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="8dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/score"
+            android:textSize="25sp" />
+
+
+        <EditText
+            android:id="@+id/editInput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/input"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/button" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/a"
+        android:textSize="25sp"
+         />
+
+</LinearLayout>
